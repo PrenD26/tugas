@@ -63,7 +63,7 @@
             </div>
             <footer class="main-footer">
                 <div class="footer-left">
-                    Copyright &copy; 2022 <div class="bullet"></div> Made By Stisla | My Github <a href="https://github.com/PrenD26/"> Frendy</a>
+                    Copyright &copy; 2022 <div class="bullet"></div> Made With Stisla | My Github <a href="https://github.com/PrenD26/"> Frendy</a>
                 </div>
                 <div class="footer-right">
                     2.3.0
