@@ -22,10 +22,7 @@ class UserModel extends Model
   {
     return $this->query("SELECT * FROM v_supplier")->getResultArray();
   }
-  public function getSupplierx()
-  {
-    return $this->query("SELECT * FROM v_supplier where role ='supplier'")->getResultArray();
-  }
+
   public function cekLogin($username, $password)
   {
     return $this->where("(username = '$username' OR email = '$username') AND password = '$password'")->first();

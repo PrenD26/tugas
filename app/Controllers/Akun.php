@@ -63,7 +63,7 @@ class Akun extends BaseController
   public function produk_tambah()
   {
     $data = [
-      'supplier' => $this->userModel->getSupplierx(),
+      'supplier' => $this->userModel->getSupplier(),
       'validation' => \Config\Services::validation()
     ];
     if (session('username') == null) {
